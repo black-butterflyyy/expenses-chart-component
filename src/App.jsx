@@ -1,5 +1,11 @@
+import Balance from './components/Balance';
+
 function App() {
-  return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+  return (
+    <section className='font-sans h-screen bg-cream py-20 px-5 text-lg text-very-pale-orange'>
+      <Balance />
+    </section>
+  );
 }
 
 export default App;
