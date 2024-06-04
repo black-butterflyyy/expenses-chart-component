@@ -2,7 +2,7 @@
 
 const Balance = () => {
   return (
-    <article className='bg-primary rounded-lg p-6 flex flex-row justify-between items-center'>
+    <article className='bg-primary rounded-lg px-6 py-5 flex flex-row justify-between items-center mb-5 w-full'>
       <div>
         <h3 className='font-extralight text-sm leading-6'> My balance</h3>
         <p className='font-semibold text-2xl'> $921.48</p>
