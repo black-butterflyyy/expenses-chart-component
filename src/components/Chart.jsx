@@ -37,8 +37,8 @@ const Chart = () => {
   const max = Math.max(...amounts);
 
   return (
-    <article className='bg-very-pale-orange rounded-lg py-5 px-8  w-full'>
-      <h3 className='text-dark-brown font-bold text-2xl'>
+    <article className='bg-very-pale-orange rounded-[1rem] py-5 pb-10 px-8 w-full md:max-w-md'>
+      <h3 className='text-dark-brown font-extrabold text-2xl'>
         Spending - Last 7 days
       </h3>
       <div className='bars flex justify-center items-end pt-16 gap-x-3'>

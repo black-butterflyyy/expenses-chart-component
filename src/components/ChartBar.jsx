@@ -24,7 +24,7 @@ const ChartBar = ({ value, height, isMax }) => {
         ${value.amount}
       </div>
       <div
-        className={`hover:opacity-80 ${height} w-8 rounded-[5px] ${
+        className={`hover:opacity-80 ${height} w-9 rounded-[5px] ${
           isMax ? 'bg-secondary' : 'bg-primary'
         }`}
       ></div>
